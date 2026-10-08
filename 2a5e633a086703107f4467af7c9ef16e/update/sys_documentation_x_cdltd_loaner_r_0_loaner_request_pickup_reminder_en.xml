@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="pickup_reminder" label="Old Pickup Reminder — Do Not Use" language="en" table="x_cdltd_loaner_r_0_loaner_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>pickup_reminder</element>
+            <help/>
+            <hint/>
+            <label>Old Pickup Reminder — Do Not Use</label>
+            <language>en</language>
+            <name>x_cdltd_loaner_r_0_loaner_request</name>
+            <plural>Old Pickup Reminder — Do Not Uses</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-07 16:49:38</sys_created_on>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_name>Old Pickup Reminder — Do Not Use</sys_name>
+            <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">2a5e633a086703107f4467af7c9ef16e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Request">2a5e633a086703107f4467af7c9ef16e</sys_scope>
+            <sys_update_name>sys_documentation_x_cdltd_loaner_r_0_loaner_request_pickup_reminder_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-08 14:08:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
