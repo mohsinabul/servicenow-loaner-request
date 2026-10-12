@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" audit="true" db_object_id="6c4c185fcc6303107f4417e0a32afc28" extends="task" label="Loaner Request" max_length="40" name="x_cdltd_loaner_r_0_loaner_request" type="collection">
+        <element label="Last overdue reminder" max_length="255" name="last_overdue_reminder" type="glide_date_time"/>
         <element label="Old Pickup Reminder — Do Not Use" max_length="255" name="pickup_reminder" type="glide_date_time"/>
+        <element label="Return reminder" max_length="255" name="return_reminder" type="glide_date_time"/>
         <element choice="3" default="sc" label="Depot" max_length="255" name="depot" type="choice">
             <choice>
                 <element inactive_on_update="false" label="London" sequence="1" value="london"/>
@@ -13,6 +15,7 @@
             </choice>
         </element>
         <element label="Other" max_length="40" name="other" type="string"/>
+        <element label="Overdue count" max_length="255" name="overdue_count" type="integer"/>
         <element label="End date" mandatory="true" max_length="255" name="end_date" type="glide_date_time"/>
         <element choice="3" default="cmdb_ci_computer" label="Item type" max_length="255" name="item_type" type="choice">
             <choice>
