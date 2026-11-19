@@ -10,14 +10,14 @@
         request.setHttpMethod('GET');
         //Eg. UserName="admin", Password="admin" for this code sample.
         var user = 'admin';
-        var password = '8yYY7kMB5jnx';
+        var password = ''; // Lab credential removed from public export.
         request.setBasicAuth(user, password);
         request.setRequestHeader("Accept", "application/json");
         var response = request.execute();
    
         var obj = JSON.parse(response.getBody());
         var myPass = obj.result[0].u_password;
-        template.print('u_password: ' + myPass);
+        // Do not include device credentials in notification email.
     }]]></script>
         <sys_class_name>sys_script_email</sys_class_name>
         <sys_created_by>admin</sys_created_by>

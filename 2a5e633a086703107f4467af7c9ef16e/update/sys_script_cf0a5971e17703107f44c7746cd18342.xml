@@ -41,17 +41,17 @@
 
         //Eg. UserName="admin", Password="admin" for this code sample.
         var user = 'admin';
-        var password = '8yYY7kMB5jnx';
+        var password = ''; // Lab credential removed from public export.
 
         request.setBasicAuth(user, password);
         request.setRequestHeader("Accept", "application/json");
 
         var response = request.execute();
-        gs.info(response.getBody());
+        // Do not log the password-vault response body.
 
         var obj = JSON.parse(response.getBody());
         var myPass = obj.result[0].u_password;
-        gs.info('u_password: ' + myPass);
+        // Do not log credentials returned by the lab service.
 
     }
 
